@@ -17,7 +17,7 @@ form.addEventListener("submit", e => {
     e.preventDefault();
     let inputVal = input.value;
 
-const url = `https://api.openweathermap.org/data/2.5/forecast?q=${inputVal}&appid=${apiKey}&units=metric`;
+    const url = `https://api.openweathermap.org/data/2.5/forecast?q=${inputVal}&appid=${apiKey}&units=metric`;
 
 
 
